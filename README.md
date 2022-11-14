@@ -13,7 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Faluvy&count_bg=%23E582D8&title_bg=%23193549&icon=github.svg&icon_color=%23FFFFFF&title=visitor&edge_flat=true)](https://hits.seeyoufarm.com)
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Faluvy&count_bg=%23E582D8&title_bg=%23193549&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&duration=3000&pause=5000&color=033963&width=435&lines=Hi%F0%9F%96%90+Thank+you+for+visiting+GitHub.)](https://git.io/typing-svg)
 　
