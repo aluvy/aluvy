@@ -30,8 +30,12 @@ Here are some ideas to get you started:
 ![aluvy's GitHub stats](https://github-readme-stats.vercel.app/api?username=aluvy&hide=contribs,prs&show_icons=true&&theme=cobalt)
 
 
-
 ### 🌱 Contribution Graph
 [![aluvy's github activity graph](https://activity-graph.herokuapp.com/graph?username=aluvy&theme=onedark&radius=16)](https://github.com/aluvy/github-readme-activity-graph)
 
 
+
+<a href='https://github.com/aluvy/github-stats-transparent'>
+  
+![Stats Overview](https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/overview.svg)
+![Most Used Languages](https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/languages.svg)
