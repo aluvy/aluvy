@@ -31,14 +31,17 @@ Here are some ideas to get you started:
 
 
 ### 🌱 Contribution Graph
-[![aluvy's github activity graph](https://activity-graph.herokuapp.com/graph?username=aluvy&theme=onedark&radius=16)](https://github.com/aluvy/github-readme-activity-graph)
+[![aluvy's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=aluvy&theme=onedark&radius=16)](https://github.com/aluvy/github-readme-activity-graph)
 
+<!--
+[![aluvy's github activity graph](https://activity-graph.herokuapp.com/graph?username=aluvy&theme=onedark&radius=16)](https://github.com/aluvy/github-readme-activity-graph)
+-->
 
 <!--
 <a href='https://github.com/aluvy/github-stats-transparent'>
 -->
 
-
+### ✔ Statistics & Used Languages
 ![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/overview.svg)
 ![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/languages.svg)
 
