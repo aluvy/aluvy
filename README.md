@@ -34,8 +34,19 @@ Here are some ideas to get you started:
 [![aluvy's github activity graph](https://activity-graph.herokuapp.com/graph?username=aluvy&theme=onedark&radius=16)](https://github.com/aluvy/github-readme-activity-graph)
 
 
-
+<!--
 <a href='https://github.com/aluvy/github-stats-transparent'>
-  
+-->
+
+
 ![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/overview.svg)
 ![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/languages.svg)
+
+<!--
+<a href="2">
+   <img src="https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/overview.svg" width="49.2%" />
+
+   
+   <img src="https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/languages.svg" width="49.2%" />
+</a>
+-->
