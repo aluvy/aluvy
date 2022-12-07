@@ -37,5 +37,5 @@ Here are some ideas to get you started:
 
 <a href='https://github.com/aluvy/github-stats-transparent'>
   
-![Stats Overview](https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/overview.svg)
-![Most Used Languages](https://raw.githubusercontent.com/aluvy/github-stats-transparent/output/generated/languages.svg)
+![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/overview.svg)
+![](https://github.com/aluvy/github-stats-transparent/blob/output/generated/languages.svg)
