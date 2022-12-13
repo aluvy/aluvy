@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Circular Activity Rings Chart | JSCharting</title>
+    <meta http-equiv="content-type" content="text-html; charset=utf-8" />
+
+    <script type="text/javascript" src="../js/jscharting.js"></script>
+
+    <script type="text/javascript" src="../js/toolbar.js"></script>
+    <script type="text/javascript" src="../js/types.js"></script>
+    <script type="text/javascript" src="../js/directions-run.js"></script>
+    <script type="text/javascript" src="../js/directions-walk.js"></script>
+    <script type="text/javascript" src="../js/directions-bike.js"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/default.css" /> -->
+    <style>
+      /*CSS*/
+    </style>
+  </head>
+  <body>
+    <div id="chartDiv" style="max-width: 400px; height: 400px;margin: 0px auto;"></div>
+
+    <script type="text/javascript">
+      /*
+Animated activity rings.
+Learn how to:
+
+  - Draw live activity rings.
+*/
+      // JS
+      var INTERVAL_ID,
+        chart = JSC.chart('chartDiv', {
+          debug: true,
+          type: 'gauge ',
+          legend: { position: 'bottom' },
+          animation_duration: 300,
+          //Spacing between circular bars
+          xAxis_spacingPercentage: 0.1,
+          yAxis: { line_width: 0, scale_range: [0, 100] },
+
+          defaultSeries: {
+            type: 'column roundCaps',
+            angle: { sweep: 360, start: -90 },
+            shape_innerSize: '60%'
+          },
+          defaultTooltip_visible: false,
+          series: [
+            {
+            //   palette: ['#E10715', '#3FDC00', '#3EBAE1'],
+                palette: ['#E10715'],
+              name: 'Activities',
+              defaultPoint: {
+                marker: {
+                  fill: 'white',
+                  //Outline makes the markers thicker without making them larger
+                  outline: { width: 0, color: 'white' },
+                  visible: true,
+                  size: 17
+                }
+              },
+              points: [
+                { x: 'Running', id: 'r', y: 100, marker_type: 'material/maps/directions-run' },
+                // { x: 'Walking', id: 'w', y: 25, marker_type: 'material/maps/directions-walk' },
+                // { x: 'Biking', id: 's', y: 20, marker_type: 'material/maps/directions-bike' } //material/maps/hotel
+              ]
+            }
+          ],
+        //   toolbar: {
+        //     items: {
+        //       Stop: {
+        //         type: 'option',
+        //         value: true,
+        //         // icon_name: 'system/default/pause',
+        //         boxVisible: true,
+        //         // label_text: 'Pause',
+        //         // events: { change: playPause },
+        //         states_select: {
+        //           label_text: 'Play',
+        //           icon_name: 'system/default/play'
+        //         }
+        //       }
+        //     }
+        //   }
+        });
+
+    //   function playPause(val) {
+    //     if (val === true) {
+    //       clearInterval(INTERVAL_ID);
+    //     } else {
+    //     //   startUpdate();
+    //     }
+    //   }
+
+    //   function startUpdate() {
+    //     INTERVAL_ID = setInterval(function() {
+    //       chart.series(0).options({ points: getRandomPoints() });
+    //     }, 500);
+    //   }
+
+      function getRandomPoints() {
+        return [
+          { id: 'r', y: getPointVal('r') },
+          { id: 'w', y: getPointVal('w') },
+          { id: 's', y: getPointVal('s') }
+        ];
+
+        function getPointVal(id) {
+          return (
+            chart
+              .series(0)
+              .points(id)
+              .options('y') + Math.round(Math.random() * 3)
+          );
+        }
+      }
+    </script>
+  </body>
+</html>
