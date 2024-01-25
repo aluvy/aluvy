@@ -12,6 +12,7 @@
 ![initial](https://img.shields.io/badge/jquery-3484d2?style=flat-square&logo=jquery&logoColor=white)
 ![initial](https://img.shields.io/badge/react-48cef7?style=flat-square&logo=react&logoColor=white)
 ![initial](https://img.shields.io/badge/vue.js-4fc08d?style=flat-square&logo=vue.js&logoColor=white)
+![initial](https://img.shields.io/badge/pwa-5a06c9?style=flat-square&logo=pwa&logoColor=white)
 ![initial](https://img.shields.io/badge/npm-cc3534?style=flat-square&logo=npm&logoColor=white)
 ![initial](https://img.shields.io/badge/webpack-1b74ba?style=flat-square&logo=webpack&logoColor=white)
 ![initial](https://img.shields.io/badge/babel-f8e01e?style=flat-square&logo=babel&logoColor=white)
