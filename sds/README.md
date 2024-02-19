@@ -1,3 +1,10 @@
 # test
 
-20240219
+### .gitconfig
+
+```
+[http "https://github.com/"]
+	proxy = 
+[https "https://github.com/"]
+	proxy = 
+```
