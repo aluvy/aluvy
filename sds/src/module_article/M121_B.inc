@@ -88,7 +88,7 @@
     </div>
     
     <!-- M121_B -->
-    <div class="cont M121_B bg" data-fn="" data-tit="" data-section="" data-active-tab="">
+    <div class="cont M121_B" data-fn="" data-tit="" data-section="" data-active-tab="">
         <div class="inner">
             <div class="view_cont">
     
