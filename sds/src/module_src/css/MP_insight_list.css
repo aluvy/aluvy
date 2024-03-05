@@ -1,0 +1,44 @@
+.MP_insight_list .insight_carousel .li .txt_cont {display:flex;position:absolute;top:0;left:0;right:0;max-width:1504px;margin:0 auto;width:100%;height:100%; padding:62px 93px 60px; align-items:center; justify-content:center; color:#fff; z-index:2; }
+/* 수정 시작 */
+.MP_insight_list .insight_carousel .li.active .md_thumb { animation: fade .7s .2s; animation-fill-mode: backwards; }
+.MP_insight_list .insight_carousel .li .md_thumb { position:relative; width:290px; min-height: 290px; }
+.MP_insight_list .insight_carousel .li .md_thumb .img_box{ position: absolute; inset: 0; overflow: hidden; z-index: 1; }
+.MP_insight_list .insight_carousel .li .md_thumb .img { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; background-position: center; }
+.MP_insight_list .insight_carousel .li .md_thumb .txt_box { position: absolute; inset: 0; overflow: hidden; padding: 30px; background: rgb(0,0,0, 0.5); background: linear-gradient(145deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); z-index: 2; }
+.MP_insight_list .insight_carousel .li .md_thumb .in_txt { text-align: left; }
+.MP_insight_list .insight_carousel .li .md_thumb .in_cate { display: block; font-size: 14px; color: #221818; }
+.MP_insight_list .insight_carousel .li .md_thumb .md_tit { display:block; font-size: 24px; line-height: 1.5; color: #fff; -webkit-line-clamp:3; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; margin-top: 10px; }
+.MP_insight_list .insight_carousel .li .md_thumb .md_name { position: absolute; left: 0; bottom: 0; display: flex; align-items: center; width: 100%; height: 70px; font-size: 14px; color: #000; padding: 20px 30px; background: rgba(255,255,255, 0.85); }
+.MP_insight_list .insight_carousel .li .md_thumb .md_name::after { content: '작가'; padding-left: 4px; }
+/* .MP_insight_list .insight_carousel .li .md_thumb { position:relative; width:280px; min-height:360px; background:url('http://70.225.30.32:8002/module_src/images/data/img_insight_book_bg.png') no-repeat center; background-size:cover; }
+.MP_insight_list .insight_carousel .li .md_thumb .img_box{position: absolute;width: 71%;margin: 0 auto;overflow: hidden;bottom: 10%;left: 0;right: 0;padding: 21%;}
+.MP_insight_list .insight_carousel .li .md_thumb .img {position:absolute;left:0;top:0;display:block;background-size:cover;width:100%;height:100%;background-repeat:no-repeat;background-position:center;}
+.MP_insight_list .insight_carousel .li .md_thumb .in_txt {position:absolute;left:0;right:0;width:71%;top:23%;margin:0 auto;text-align:center;font-size:12px;line-height:18px;}
+.MP_insight_list .insight_carousel .li .md_thumb .md_tit {display:block;color:#000;-webkit-line-clamp:3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;}
+.MP_insight_list .insight_carousel .li .md_thumb .md_name {top:44%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#999;} */
+/* 수정 끝 */
+.MP_insight_list .insight_carousel .li .txt_cont .txt {max-width:760px;margin-left:60px;width:calc(100% - 300px);}
+
+
+@media all and (max-width:768px){
+    /* 수정 시작 */
+    .MP_insight_list .insight_carousel { height: 500px; }
+    .MP_insight_list .insight_carousel .li .visual_img:after { height: 100%; min-height: 500px; }
+    .MP_insight_list .insight_carousel .li .txt_cont { padding-top: 80px; padding-bottom: 170px; }
+    .MP_insight_list .insight_carousel .li .txt_cont .md_thumb { display: none; }
+    .MP_insight_list .insight_carousel .li .txt_cont .txt {margin:0;width:100%;text-align:center;}
+    .MP_insight_list .insight_carousel .li .txt .md_txt {margin-top:10px;}
+    .MP_insight_list .insight_carousel .li .txt .tit_b i {-webkit-line-clamp:2;white-space: inherit;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;}
+    .MP_insight_list .insight_carousel .li .txt .md_btn {padding-top:20px;text-align:center;}
+    .MP_insight_list .insight_carousel .li .txt .md_btn a:last-child { display: none; }
+    /* .MP_insight_list .insight_carousel .li .visual_img:after {height:100%;min-height:690px;}
+    .MP_insight_list .insight_carousel .li .txt_cont {display:block;padding-top:30px;}
+    .MP_insight_list .insight_carousel .li .txt_cont .md_thumb {width:200px;min-height:270px;margin:0 auto 15px;text-align:center;}
+    .MP_insight_list .insight_carousel .li .md_thumb .in_txt {font-size:10px;line-height:16px;}
+    .MP_insight_list .insight_carousel .li .txt_cont .txt {margin:0;width:100%;text-align:center;}
+    .MP_insight_list .insight_carousel .li .txt .md_txt {margin-top:10px;}
+    .MP_insight_list .insight_carousel .li .txt .tit_b i {-webkit-line-clamp:2;white-space: inherit;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;}
+    .MP_insight_list .insight_carousel .li .txt .md_btn {padding-top:20px;text-align:center;}
+    .MP_insight_list .insight_carousel .li .txt .md_btn a {margin-right: 10px;min-width:auto;padding:0 25px;} */
+    /* 수정 끝 */
+}
